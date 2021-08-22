@@ -22,7 +22,7 @@ function addInCartMessage(title, price) {
     // добавьте в конец переменной message текст 'теперь в корзине!'
      message=message+"теперь в корзине!";
     // выведите переменную message в консоль
-
+console.log(message)
     // Конец решения задания №1.1.
 
     return message;
