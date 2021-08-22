@@ -8,7 +8,7 @@ function addInCartMessage(title, price) {
     let message;
 
     // присвойте переменной message значение переменной productName
-    let message=productName;
+     message=productName;
     // добавьте в конец переменной message пробел
     let message=message+" ";
     // добавьте в конец переменной message текст 'за'
