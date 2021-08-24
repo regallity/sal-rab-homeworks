@@ -18,6 +18,9 @@ function calcShipping(sum, min, shipping) {
 if (productsSum==0){
     shippingSum=0;
 }
+if (productsSum>=freeShippingMinSum){
+    shippingSum=0;
+}
     // Конец решения задания №2.1.
 
     return shippingPrice;
