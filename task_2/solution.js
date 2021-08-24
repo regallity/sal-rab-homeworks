@@ -71,7 +71,7 @@ let totalSum;
     let freeShipping;
     // запишите без использования if или любых других условий:
     // если shippingSum равно нулю, то freeShipping должна быть равна true, иначе freeShipping должна быть равна false
-
+    (shippingSum == 0) ? freeShipping = true : freeShipping = false;
     // Конец решения задачи №2.3.
 
     return {discount: discountSum, freeShipping, shipping: shippingSum, total: totalSum};
