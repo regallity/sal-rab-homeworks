@@ -25,6 +25,7 @@ function renderCartItem(item) {
 let itemCountText ="";
 itemCountText+=product.count;
 itemCountText+=` × `;
+itemCountText+=product.price;
 
     // Конец решения задания №3.1.
 
