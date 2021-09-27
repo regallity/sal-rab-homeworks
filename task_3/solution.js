@@ -29,6 +29,7 @@ itemCountText+=product.price;
 itemCountText+=` ₽ = `;
 let sum=product.count*product.price;
 itemCountText+=sum;
+itemCountText+=` ₽`;
 
     // Конец решения задания №3.1.
 
