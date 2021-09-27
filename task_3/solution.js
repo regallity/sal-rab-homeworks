@@ -27,6 +27,8 @@ itemCountText+=product.count;
 itemCountText+=` × `;
 itemCountText+=product.price;
 itemCountText+=` ₽ = `;
+let sum=product.count*product.price;
+
     // Конец решения задания №3.1.
 
     return `<div class="cart-item"><div>${product.title}</div><div>${itemCountText}</div></div>`;
