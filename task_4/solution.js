@@ -22,4 +22,10 @@ return products;
 // и выполняете addProduct с каждым элементом массива products (передавая элемент массива как аргумент)
 function renderProductsCards(json){
     clearProducts();
+let products;
+products = parseProducts(json);
+
+
+
+
  }
